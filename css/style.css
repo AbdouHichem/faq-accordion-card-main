@@ -44,7 +44,7 @@ main dl {
 }
 main dl dt {
   color: hsl(237deg, 12%, 33%);
-  font-size: 0.8em;
+  font-size: 1em;
   margin-bottom: 0.8em;
 }
 main dl dt:after {
@@ -64,7 +64,7 @@ main dl .hide {
 }
 main dl dd {
   color: hsl(240deg, 6%, 50%);
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .attribution {
