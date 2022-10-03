@@ -1,19 +1,19 @@
 
-let faq = document.getElementsByTagName("dt");
+let dt = document.getElementsByTagName("dt");
 console.log(faq);
 
-for (let i = 0; i < faq.length; i++) {
-    faq[i].addEventListener("click", function () {
+for (let i = 0; i < dt.length; i++) {
+    dt[i].addEventListener("click", function () {
         
-        console.log(faq[i]);
+        
         this.classList.toggle("active");
 
-        var body = this.nextElementSibling;
+        var dd = this.nextElementSibling;
 
-        if (body.classList.contains('hide')) {
-            body.classList.remove('hide');
+        if (dd.classList.contains('hide')) {
+            dd.classList.remove('hide');
         } else {
-            body.classList.add('hide');
+            dd.classList.add('hide');
         }
     });
 }
