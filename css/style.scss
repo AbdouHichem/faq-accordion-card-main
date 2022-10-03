@@ -10,12 +10,13 @@ body {
 }
 
 main {
-    max-width: 450px;
+    max-width: 375px;
     width: 90%;
-    border-radius: 1em;
+    border-radius: 2em;
     background-color: white;
     padding: 1em 2em;
     position: relative;
+    margin-bottom:2em;
 
     picture {
         img {
@@ -35,7 +36,7 @@ main {
     h1 {
         margin-top: 4em;
         text-align: center;
-        margin-bottom:1.5em;
+        margin-bottom: 1.5em;
     }
 
     dl {
@@ -43,11 +44,15 @@ main {
         margin-bottom: 1em;
         padding-bottom: .5em;
 
+
         dt {
             color: $Verydarkgrayishblue;
             font-size: 1em;
             margin-bottom: .8em;
-
+            cursor: pointer;
+            &:hover {
+                color: $Softred;
+            }
             &:after {
                 content: url('../images/icon-arrow-down.svg');
                 float: right;
@@ -78,10 +83,10 @@ main {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: white;
 }

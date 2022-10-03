@@ -14,12 +14,13 @@ body {
 }
 
 main {
-  max-width: 450px;
+  max-width: 375px;
   width: 90%;
-  border-radius: 1em;
+  border-radius: 2em;
   background-color: white;
   padding: 1em 2em;
   position: relative;
+  margin-bottom: 2em;
 }
 main picture img {
   position: absolute;
@@ -46,6 +47,10 @@ main dl dt {
   color: hsl(237deg, 12%, 33%);
   font-size: 1em;
   margin-bottom: 0.8em;
+  cursor: pointer;
+}
+main dl dt:hover {
+  color: hsl(14deg, 88%, 65%);
 }
 main dl dt:after {
   content: url("../images/icon-arrow-down.svg");
@@ -68,10 +73,10 @@ main dl dd {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: white;
 }/*# sourceMappingURL=style.css.map */
