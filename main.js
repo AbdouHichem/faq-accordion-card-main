@@ -1,6 +1,5 @@
 
 let dt = document.getElementsByTagName("dt");
-console.log(faq);
 
 for (let i = 0; i < dt.length; i++) {
     dt[i].addEventListener("click", function () {
