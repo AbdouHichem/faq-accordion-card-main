@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+}
+
+main {
+  max-width: 450px;
+  width: 90%;
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em 2em;
+  position: relative;
+}
+main picture img {
+  position: absolute;
+  top: -175px;
+  right: auto;
+  width: 80%;
+  height: 300px;
+  background-image: url(../images/bg-pattern-mobile.svg);
+  background-position: 50% 90%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+main h1 {
+  margin-top: 4em;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+main dl {
+  border-bottom: solid 2px hsl(240deg, 6%, 50%);
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+}
+main dl dt {
+  color: hsl(237deg, 12%, 33%);
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+}
+main dl dt:after {
+  content: url("../images/icon-arrow-down.svg");
+  float: right;
+}
+main dl .active {
+  font-weight: bold;
+  color: hsl(238deg, 29%, 16%);
+}
+main dl .active:after {
+  content: url("../images/icon-arrow-down.svg");
+  transform: scaleY(-1);
+}
+main dl .hide {
+  display: none;
+}
+main dl dd {
+  color: hsl(240deg, 6%, 50%);
+  font-size: 0.7em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
