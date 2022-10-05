@@ -5,12 +5,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 140vh;
     background-image: linear-gradient(to bottom, $Softviolet, $Softblue);
 }
 
 main {
-    max-width: 375px;
+    max-width: 400px;
     width: 90%;
     border-radius: 2em;
     background-color: white;
